@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "First Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate": "npx prisma migrate dev --name init"
+  },
+  "keywords": [],
+  "author": "Achille",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "prisma": "^5.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5"
+  }
+}
